@@ -140,7 +140,7 @@ if (cooldowns >= 42); // Set the counter for your timed event. This interval cou
   send {click down}
    Sleep 25
   send {click up}
-  BlockInput, Off
+  BlockInput, Off; // Re-enable all keyboard input 
 
 }
 
